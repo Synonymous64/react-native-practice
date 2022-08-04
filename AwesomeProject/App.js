@@ -50,6 +50,7 @@ import NetflixCard from "./src/components/NetflixCard";
 import DemoStyles from "./src/screens/DemoStyles";
 import BoxStyles from "./src/screens/BoxStyles";
 import Scrolling from "./src/screens/Scrolling";
+import FlexBox from "./src/screens/FlexBox";
 //* Create a component that return jsx / simple function
 const App = () => {
   const myIntro = "Hello this is Prajwal";
@@ -80,7 +81,8 @@ const App = () => {
       {/* <Images/> */}
       {/* <BoxStyles/> */}
       {/* <FlatListdemo/> */}
-      <Scrolling/>
+      {/* <Scrolling/> */}
+      <FlexBox/>
       <StatusBar style="auto" />
     </View>
   );
